@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Geologica:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Protest+Strike&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Geologica:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Protest+Strike&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+		Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+		sans-serif;
+}
+
+.container {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 1440px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.flex {
+	display: flex;
+}
+
+.site-header {
+	background-color: #f5f7ff;
+	padding: 20px 0;
+}
+
+.header {
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-list {
+	gap: 50px;
+}
+
+.header-list li a {
+	color: black;
+}
+
+.header-input {
+	position: relative;
+	align-self: center;
+}
+
+.header-search {
+	width: 350px;
+	padding: 10px 20px;
+	border-radius: 40px;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	-ms-border-radius: 40px;
+	-o-border-radius: 40px;
+	border: none;
+	outline: none;
+}
+
+.header-input img {
+	position: absolute;
+	top: 12px;
+	right: 17px;
+	z-index: 2;
+}
+
+.header-input:after {
+	position: absolute;
+	top: 4px;
+	right: 10px;
+	content: " ";
+	width: 30px;
+	height: 30px;
+	z-index: 1;
+	background-color: #f5f7ff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.header-log {
+	align-self: center;
+}
+
+.header-log a:last-child {
+	color: black;
+}
+
+/* Ziro section */
+.ziro-section {
+	padding-top: 50px;
+	background-color: #f5f7ff;
+}
+
+.ziro {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ziro-text__wrapper {
+	width: 625px;
+	padding: 85px 0;
+}
+
+.ziro-title {
+	font-size: 55px;
+	letter-spacing: 5px;
+	margin-bottom: 25px;
+}
+
+.ziro-title span {
+	color: #ff5c00;
+}
+
+.ziro-text {
+	color: #a8a8a8;
+	margin-bottom: 30px;
+}
+
+.ziro-link {
+	gap: 30px;
+}
+
+.ziro-btn {
+	background-color: #544cac;
+	padding: 10px 20px;
+	color: white;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.ziro-link .flex {
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+
+.ziro-content {
+	align-self: flex-end;
+}
+
+/* Trust */
+
+.trust-section {
+	padding-top: 100px;
+}
+
+.container .whyChooseUs {
+	margin: 0 auto;
+	width: 80%;
+	height: 70vh;
+}
+
+.container .whyChooseUs .h1 {
+	font-size: 40px;
+	height: 15%;
+	display: flex;
+	width: 100%;
+	align-items: center;
+	color: #353434;
+	justify-content: center;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+}
+
+.container .whyChooseUs .p {
+	font-size: 13px;
+	height: 15%;
+	width: 45%;
+	margin: 0 auto;
+	color: #a8a8a8;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+}
+
+.container .whyChooseUs .boxes {
+	display: flex;
+	width: 100%;
+	height: 70%;
+	justify-content: space-between;
+}
+
+.container .whyChooseUs .boxes .box-1,
+.container .whyChooseUs .boxes .box-2,
+.container .whyChooseUs .boxes .box-3 {
+	width: 30%;
+	background-color: #f9faff;
+	height: 70%;
+	padding: 15px;
+	border-radius: 10px;
+	border: 3px solid rgb(231, 231, 231);
+}
+
+.container .whyChooseUs .boxes .box-1 h1,
+.container .whyChooseUs .boxes .box-2 h1,
+.container .whyChooseUs .boxes .box-3 h1 {
+	height: 30%;
+	display: flex;
+	width: 100%;
+	color: #323232;
+	align-items: center;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 500;
+}
+
+.container .whyChooseUs .boxes .box-1 p,
+.container .whyChooseUs .boxes .box-2 p,
+.container .whyChooseUs .boxes .box-3 p {
+	font-size: 15.5px;
+	height: 45%;
+	color: #8f8f8f;
+	display: flex;
+	width: 100%;
+	font-family: "Open Sans", sans-serif;
+}
